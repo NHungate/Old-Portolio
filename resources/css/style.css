@@ -1,0 +1,60 @@
+/*--------------- 
+ * Header Styles
+ ---------------*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 6rem;
+    background: #aaa;
+}
+.logo {
+    float: left;
+
+}
+.nav {
+    float: right;
+    margin: 2rem 0 0 0;
+    text-align: right;
+}
+.nav ul {
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+}
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    padding: 1.5rem;
+}
+
+/*--------------- 
+ * Splash Styles
+ ---------------*/
+
+.splash {
+    display: table;
+    width: 100%;
+    margin-top: 6rem;
+    text-align: center;
+}
+.splash-content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*--------------- 
+ * Content Styles
+ ---------------*/
+h3,
+.section p {
+    text-align: center;
+}
+.target {
+    position: relative;
+    top: -5em;
+}
