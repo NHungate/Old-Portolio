@@ -2,38 +2,44 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="robots" content="index">
+        <meta name="description" content="Web Designer, Web Developer">
+        <meta name="keywords" content="HTML,HTML5,CSS,JavaScript,jQuery">
+        <meta name="author" content="Nathan J. Hungate">
+
         <title>Nathan J Hungate | Web Designer</title>
-        <link rel="stylesheet" href="vendors/Skeleton-2.0.4/css/skeleton.css" type="text/css">
-        <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet'>
+        <link rel="stylesheet" href="vendors/Skeleton-2.0.4/css/skeleton.css">
+        <link rel="stylesheet" href="resources/css/style.css">
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     </head>
     <body>
-        <div class="header">
+        <header>
             <div class="logo">
                 <h1><a href="#intro">Nathan H.</a></h1>
             </div>
-            <div class="nav">
+            <nav>
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </div>
-        </div>
-        <div class="target" id="intro"></div>
-        <div class="section intro">
+            </nav>
+        </header>
+
+        <section class="intro">
+            <div class="target" id="intro"></div>
             <div class="splash">
-                <div class="splash-content">
-                    <h2>Welcome to my Portfolio</h2>
-                    <p>Feel free to look around</p>
-                </div>
+                <h2>Welcome to my Portfolio</h2>
+                <p>Feel free to look around</p>
             </div>
-        </div>
-        <div class="target" id="about"></div>
-        <div class="section about">
+        </section>
+
+        <section class="about">
+            <div class="target" id="about"></div>
             <div class="container">
                 <h3>About</h3>
-                <p>I'm a web developer based out of Albuquerque, NM</p>
+                <p>I'm a web developer living in Albuquerque, NM</p>
                 <div class="row">
                     <div class="six columns">
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -43,9 +49,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="target" id="portfolio"></div>
-        <div class="section portfolio">
+        </section>
+
+        <section class="portfolio">
+            <div class="target" id="portfolio"></div>
             <div class="container">
                 <h3>Portfolio</h3>
                 <p>Here are some examples of my past work</p>
@@ -54,38 +61,40 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
                     <div class="six columns">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>Ipsum molestiae illo ea quas maxime asperiores. Culpa perferendis magni reiciendis velit tenetur. Rem ut tempore quod modi voluptatibus modi. Quasi dolores tempora eaque tempore iste eaque dignissimos debitis velit.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="target" id="contact"></div>
-        <div class="section contact">
+        </section>
+
+        <section class="contact">
             <div class="container">
+                <div class="target" id="contact"></div>
                 <h3>Contact</h3>
                 <p>Interested? Let me know</p>
                 <div class="row">
-                    <div class="six columns">
+                    <div class="six columns contactinfo">
                         <ul>
-                            <li>Phone</li>
-                            <li>Email</li>
-                            <li>Etc.</li>
+                            <li>Phone: 505.123.4567</li>
+                            <li>Email: example@gmail.com</li>
+                            <li>Twitter: @example</li>
                         </ul>
                     </div>
                     <div class="six columns">
-                        <form action="">
-                            <label for="">Name</label>
-                            <input type="text">
-                            <label for="">Email</label>
-                            <input type="email">
-                            <label for="">Comment</label>
-                            <textarea></textarea>
+                        <form action="" class="contactform">
+                            <label for="contact-name">Name</label>
+                            <input type="text" id="contact-name">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email">
+                            <label for="contact-message">Message</label>
+                            <textarea id="contact-message"></textarea>
                             <input type="submit">
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
         <script src="resources/js/custom.js"></script>
     </body>
 </html>
