@@ -1,21 +1,27 @@
 body {
+    margin: 0;
+    width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
         #242d3b url('../images/unsplash-6e609595.jpeg') no-repeat center fixed;
     background-size: cover;
-    width: 100%;
-    margin: 0;
 }
 h3 {
     text-align: center;
+    margin: 0;
+}
+h4 {
+    text-align: center;
+    font-size: 2.25rem;
 }
 p, a {
     font-family: Raleway, Helvetica, sans-serif;
 }
+a {
+    color: #c2542b;
+    text-decoration: none;
+}
 p {
     color: #333;
-}
-a {
-    text-decoration: none;
 }
 section {
     padding: 2rem 0;
@@ -38,14 +44,14 @@ header a {
     color: #888;
 }
 header a:hover {
-    color: #ccc;
+    color: #eee;
 }
 .logo {
     float: left;
     margin-left: 1rem;
 }
 .logo a {
-    color: #aa5739;
+    color: #c2542b;
 }
 nav {
     float: right;
@@ -70,24 +76,29 @@ nav a {
 .intro {
     display: table;
     width: 100%;
+    background: none;
+    text-align: center;
     color: #eee;
     text-shadow: #000 1px 1px 4px;
-    background: none;
-    margin-top: 6rem;
-    text-align: center;
+}
+.intro p {
+    color: #eee;
+}
+.intro-greet {
+    margin: 0;
+    font-size: 6rem;
 }
 .splash {
     display: table-cell;
     vertical-align: middle;
 }
-.splash p {
-    color: #eee;
-    text-shadow: #000 1px 1px 4px;
-}
 
 /*---------------
  * Content Styles
  ---------------*/
+.section-title {
+    margin: 2rem;
+}
 section p {
     text-align: center;
 }
@@ -96,8 +107,24 @@ section p {
     top: -5em;
 }
 /*---------------
+ * About Styles
+ ---------------*/
+.about .section-title {
+    border: 1px solid #66ae26;
+}
+/*---------------
+ * Portfolio Styles
+ ---------------*/
+.portfolio .section-title {
+    border: 1px solid #1e8657;
+}
+
+/*---------------
  * Contact Styles
  ---------------*/
+.contact .section-title {
+    border: 1px solid #21577d;
+}
 .contactinfo {
     margin-top: .5rem;
 }
