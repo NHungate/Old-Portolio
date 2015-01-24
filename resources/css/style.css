@@ -1,3 +1,76 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('fonts/icomoon.eot?-79lgsp');
+    src:url('fonts/icomoon.eot?#iefix-79lgsp') format('embedded-opentype'),
+        url('fonts/icomoon.woff?-79lgsp') format('woff'),
+        url('fonts/icomoon.ttf?-79lgsp') format('truetype'),
+        url('fonts/icomoon.svg?-79lgsp#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+    content: "\e942";
+}
+
+.icon-mail2:before {
+    content: "\ea84";
+}
+
+.icon-facebook:before {
+    content: "\ea8c";
+}
+
+.icon-twitter:before {
+    content: "\ea91";
+}
+
+.icon-github2:before {
+    content: "\eab2";
+}
+
+.icon-linkedin2:before {
+    content: "\eac9";
+}
+
+.icon-html52:before {
+    content: "\eae0";
+}
+
+.icon-chrome:before {
+    content: "\eae5";
+}
+
+.icon-firefox:before {
+    content: "\eae6";
+}
+
+.icon-IE:before {
+    content: "\eae7";
+}
+
+.icon-opera:before {
+    content: "\eae8";
+}
+
+.icon-safari:before {
+    content: "\eae9";
+}
+
 body {
     margin: 0;
     width: 100%;
@@ -75,6 +148,7 @@ nav a {
  ---------------*/
 .intro {
     display: table;
+    height: 800px;
     width: 100%;
     background: none;
     text-align: center;
