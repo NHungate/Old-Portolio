@@ -1,7 +1,9 @@
-function setSplashHeight () {
-    var windowHeight = $(window).height() - $(".header").height();
-    $(".splash").height(windowHeight);
+function setSplashHeight (target) {
+    var windowHeight = $(windowtarget).height() - $(".header").height();
+    $(target).height(windowHeight);
 }
 
-setSplashHeight();
-$(window).resize(setSplashHeight);
+setSplashHeight(".intro");
+setSplashHeight("section");
+$(window).resize(setSplashHeight(".intro"));
+$(window).resize(setSplashHeight("section"));
