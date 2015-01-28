@@ -74,8 +74,7 @@
 body {
     margin: 0;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-        #242d3b url('../images/unsplash-6e609595.jpeg') no-repeat center fixed;
+    background: #242d3b;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -174,6 +173,18 @@ nav {
     .intro-splash {
         display: table-cell;
         vertical-align: middle;
+    }
+    .intro-bg {
+        min-width: 1024px;
+        min-height: 100%;
+
+        width: 100%;
+        height: auto;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
 
 /*---------------
