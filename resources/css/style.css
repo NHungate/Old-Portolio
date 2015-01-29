@@ -85,8 +85,14 @@ body {
     background-size: cover;
 }
 h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 6rem;
 }
 h2 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
 }
 h3 {
     text-align: center;
@@ -109,7 +115,7 @@ p {
 section {
     padding: 2rem 0;
     background: #eee;
-    height: 600px;
+    height: 675px;
 }
 /*---------------
  * Header Styles
@@ -130,47 +136,50 @@ header {
     header a:hover {
         color: #eee;
     }
+.header-wrap {
+    height: 6rem;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .logo {
     float: left;
     margin-left: 1rem;
 }
     .logo a {
         color: #c2542b;
+        font-size: 4rem;
+        font-weight: 200;
     }
-.mini-nav span { 
-    float: right;
-    margin: 0 1rem 0 0;
-    line-height: 1.25;
-    font-size: 4rem;
-    color: #c2542b;
+.slideout-menu {
+    position: fixed;
+    top: 6rem;
+    display: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    background: #111;
 }
-.full-nav {
+    .slideout-menu li {
+        padding: 20px 0;
+        margin: 0;
+    }
+    .slideout-menu li a {
+        padding: 20px 50px;
+    }
+    .slideout-menu-icon {
+        float: right;
+        margin: .8rem 1rem 0 0;
+        line-height: 1.25;
+        font-size: 4rem;
+        color: #c2542b;
+    }
+.desktop-nav {
     display: none;
 }
 
-@media only screen 
-and (min-device-width : 480px) {
-.full-nav {
-    display: block;
-    float: right;
-    margin: 2rem 0 0 0;
-    text-align: right;
-}
-    .full-nav ul {
-        margin: 0;
-        padding: 0 10px;
-        list-style: none;
-    }
-    .full-nav li {
-        display: inline-block;
-    }
-    .full-nav a {
-        padding: 1.5rem;
-    }
-.mini-nav {
-    display: none;
-}
-}
 /*---------------
  * Intro Styles
  ---------------*/
@@ -191,9 +200,12 @@ and (min-device-width : 480px) {
         margin: 0;
         font-size: 6rem;
     }
-    .intro-splash {
+    .intro-splash-container {
         display: table-cell;
         vertical-align: middle;
+    }
+    .intro-splash {
+        margin-top: -20rem;
     }
     .intro-bg {
         min-width: 1024px;
@@ -227,6 +239,12 @@ section p {
 .about .section-title {
     border: 1px solid #66ae26;
 }
+.about-picture {
+    background: #000;
+}
+.about-picture p {
+    height: 100px;
+}
 /*---------------
  * Portfolio Styles
  ---------------*/
@@ -250,3 +268,33 @@ section p {
 /*---------------
  * Footer Styles
  ---------------*/
+
+/*---------------
+ * Media Queries
+ ---------------*/
+@media only screen
+and (min-device-width : 480px) {
+.intro-splash {
+    margin-top: -12rem;
+}
+.desktop-nav {
+    display: block;
+    float: right;
+    margin: 2rem 0 0 0;
+    text-align: right;
+}
+    .desktop-nav ul {
+        margin: 0;
+        padding: 0 10px;
+        list-style: none;
+    }
+    .desktop-nav li {
+        display: inline-block;
+    }
+    .desktop-nav a {
+        padding: 1.5rem;
+    }
+    .slideout-menu, .slideout-menu-icon {
+        display: none;
+    }
+}
