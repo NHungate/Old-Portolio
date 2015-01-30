@@ -11,8 +11,8 @@
         <title>Nathan J Hungate | Web Designer</title>
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet'>
         <link rel="stylesheet" href="vendors/Skeleton-2.0.4/css/skeleton.css">
-        <link rel="stylesheet" href="resources/css/style.css">
-        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <link rel="stylesheet" href="res/css/style.css">
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     </head>
     <body>
         <header>
@@ -23,14 +23,14 @@
             <nav class="desktop-nav">
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
                 <ul class="slideout-menu">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -38,7 +38,7 @@
 
         <section class="intro">
             <div class="scroll-target" id="intro"></div>
-            <img src="resources/images/unsplash-desk-with-phone-dark.jpg" alt="Background for Introduction Page" class="intro-bg">
+            <img src="res/images/unsplash-desk-with-phone-dark.jpg" alt="Background for Introduction Page" class="intro-bg">
             <div class="intro-splash-container">
                 <div class="intro-splash">
                     <h1>Nathan Hungate</h1>
@@ -53,7 +53,7 @@
                 <div class="row section-title">
                     <h3>About</h3>
                 </div>
-                <h4>Located in the always sunny city of Albuquerque, NM</h4>
+                <h4>Located in the always sunny city of <b>Albuquerque, NM</b></h4>
                 <div class="row">
                     <div class="eight columns">
                         <h5>Bio</h5>
@@ -69,13 +69,14 @@
                         <li>HTML/CSS</li>
                         <li>JavaScript/jQuery</li>
                         <li>PHP</li>
+                        <li>Git/GitHub</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section class="portfolio">
-            <div class="scroll-target" id="portfolio"></div>
+        <section class="works">
+            <div class="scroll-target" id="works"></div>
             <div class="container">
                 <div class="row section-title">
                     <h3>Works</h3>
@@ -83,7 +84,7 @@
                 <h4>Here are some of my past projects</h4>
                 <div class="row">
                     <div class="twelve columns">
-                        <p>I've got none yet! If you'd like to be here, check out the Contact section below.</p>
+                        <p>None yet! If you'd like to be here, check out the Contact section below.</p>
                     </div>
                 </div>
             </div>
@@ -105,21 +106,10 @@
                             <li><span class="icon-linkedin2"></span> <a href="http://www.linkedin.com/in/NathanHungate">Nathan Hungate</a></li>
                         </ul>
                     </div>
-                    <div class="six columns">
-                        <form action="" class="contact-form">
-                            <label for="contact-name">Name</label>
-                            <input type="text" id="contact-name">
-                            <label for="contact-email">Email</label>
-                            <input type="email" id="contact-email">
-                            <label for="contact-message">Message</label>
-                            <textarea id="contact-message"></textarea>
-                            <input type="submit">
-                        </form>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <script src="resources/js/custom.js"></script>
+        <script src="res/js/custom.js"></script>
     </body>
 </html>
