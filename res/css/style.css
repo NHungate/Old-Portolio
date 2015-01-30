@@ -102,6 +102,9 @@ h4 {
     text-align: center;
     font-size: 2.25rem;
 }
+h5 {
+    margin: 2rem 0 .8rem;
+}
 p, a {
     font-family: Raleway, Helvetica, sans-serif;
 }
@@ -260,6 +263,9 @@ section p {
 }
 .contact-info {
     margin-top: .5rem;
+}
+.contact-info ul {
+    list-style: none;
 }
 .contact-form input, .contact-form textarea {
     display: block;
