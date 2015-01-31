@@ -43,6 +43,8 @@
                 <div class="intro-splash">
                     <h1>Nathan Hungate</h1>
                     <h2>Front-End Developer</h2>
+                    <hr>
+                    <h2>Clean, elegant design</h2>
                 </div>
             </div>
         </section>
@@ -53,17 +55,11 @@
                 <div class="row section-title">
                     <h3>About</h3>
                 </div>
-                <h4>Located in the always sunny city of <b>Albuquerque, NM</b></h4>
+                <h4>Located in sunny city of <b>Albuquerque, NM</b></h4>
                 <div class="row">
                     <div class="eight columns">
                         <h5>Bio</h5>
                         <p>I was born and raised in the Land of Enchantment and love working with technology. Web design and development has become my passion as I study and learn daily about what can be done and how to make experience better.</p>
-                    </div>
-                    <aside class="four columns about-picture">
-                        <p>Image here</p>
-                    </aside>
-                </div>
-                <div class="row">
                     <h5>Skills</h5>
                     <ul>
                         <li>HTML/CSS</li>
@@ -71,6 +67,12 @@
                         <li>PHP</li>
                         <li>Git/GitHub</li>
                     </ul>
+                    </div>
+                    <aside class="four columns about-picture">
+                        <p>Image here</p>
+                    </aside>
+                </div>
+                <div class="row">
                 </div>
             </div>
         </section>
@@ -97,18 +99,21 @@
                     <h3>Contact</h3>
                 </div>
                 <h4>Interested? Let me know</h4>
-                <div class="row">
-                    <div class="six columns contact-info">
+                <div class="row contact-info-container">
+                    <div class="twelve columns contact-info">
                         <ul>
                             <li><span class="icon-phone"></span> <a href="tel:505-818-8642">505.818.8642</a></li>
                             <li><span class="icon-mail2"></span> <a href="mailto:Nathan.J.Hungate@gmail.com">Nathan.J.Hungate@gmail.com</a></li>
                             <li><span class="icon-twitter"></span> <a href="https://www.twitter.com/NHungate">@NHungate</a></li>
-                            <li><span class="icon-linkedin2"></span> <a href="http://www.linkedin.com/in/NathanHungate">Nathan Hungate</a></li>
+                            <li><span class="icon-linkedin2"></span> <a href="http://www.linkedin.com/in/NathanHungate">NathanHungate</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
+        <footer>
+            &copy; <?php echo date("Y") ?> Nathan J. Hungate
+        </footer>
 
         <script src="res/js/custom.js"></script>
     </body>

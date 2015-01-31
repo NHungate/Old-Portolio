@@ -75,6 +75,11 @@
 	content: "\eae9";
 }
 
+
+/*---------------
+ * Universal Styles
+ ---------------*/
+
 body {
     margin: 0;
     width: 100%;
@@ -86,8 +91,8 @@ body {
 }
 h1 {
     margin: 0;
-    padding: 0 0 10px;
-    font-size: 3.5em;
+    padding: 0 0 1em;
+    font-size: 3.25em;
 }
 h2 {
     font-size: 2em;
@@ -118,11 +123,18 @@ p {
     color: #333;
 }
 b {
+    font-weight: 400;
+    white-space: nowrap;
 }
 section {
     padding: 0;
     background: #eee;
 }
+hr {
+    width: 90%;
+    margin: 1.5rem auto 2rem;
+}
+
 /*---------------
  * Header Styles
  ---------------*/
@@ -177,9 +189,9 @@ header {
     }
     .slideout-menu-icon {
         float: right;
-        margin: .8rem 1rem 0 0;
-        line-height: 1.25;
-        font-size: 4rem;
+        margin: 0 1.5rem 0 0;
+        line-height: 2.2;
+        font-size: 2em;
         color: #c2542b;
     }
 .desktop-nav {
@@ -189,6 +201,7 @@ header {
 /*---------------
  * Intro Styles
  ---------------*/
+
 .intro {
     display: table;
     height: 600px;
@@ -196,7 +209,7 @@ header {
     background: none;
     text-align: center;
     color: #eee;
-    text-shadow: #000 1px 1px 4px;
+    text-shadow: #000 1px 1px 2px;
     margin-top: 6rem;
 }
     .intro p {
@@ -229,6 +242,7 @@ header {
 /*---------------
  * Content Styles
  ---------------*/
+
 .about,
 .works,
 .contact {
@@ -245,47 +259,76 @@ section p {
     position: relative;
     top: -5em;
 }
+
 /*---------------
  * About Styles
  ---------------*/
+
 .about .section-title {
 }
 .about-picture {
     background: #777;
+    height: 100%;
+    display: none;
 }
 .about-picture p {
-    height: 100px;
+    height: 100%;
 }
+.about ul li {
+    border-bottom: 1px solid #333;
+}
+
 /*---------------
  * Portfolio Styles
  ---------------*/
+
+.works {
+    display: none;
+}
 .works .section-title {
 }
 
 /*---------------
  * Contact Styles
  ---------------*/
+
 .contact .section-title {
 }
-.contact-info {
-    margin-top: .5rem;
-}
-.contact-info ul {
-    list-style: none;
-}
-.contact-form input, .contact-form textarea {
-    display: block;
-    width: 100%;
-}
+    .contact-info-container {
+        margin: 0 auto 2rem;
+    }
+    .contact-info ul {
+        width: 100%;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    .contact-info ul li {
+        display: block;
+        margin: 0;
+        white-space: nowrap;
+        padding: .5em;
+    }
+    .contact-form input, .contact-form textarea {
+        display: block;
+        width: 100%;
+    }
 /*---------------
  * Footer Styles
  ---------------*/
+footer {
+    padding: 1em 0;
+    color: #eee;
+    text-align: center;
+}
 
 /*---------------
  * Media Queries
  ---------------*/
 @media only screen
-and (min-device-width : 480px) {
+and (min-width : 480px)
+{
 .intro-splash {
     margin-top: -12rem;
 }
@@ -308,5 +351,14 @@ and (min-device-width : 480px) {
     }
     .slideout-menu, .slideout-menu-icon {
         display: none;
+    }
+
+    .contact-info li {
+        padding: 0;
+        margin: 0;
+    }
+    .contact-info ul li {
+        padding: 0 0 0 1em;
+        display: inline-block;
     }
 }
