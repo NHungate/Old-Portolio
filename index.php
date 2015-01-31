@@ -42,6 +42,7 @@
             <div class="intro-splash-container">
                 <div class="intro-splash">
                     <h1>Nathan Hungate</h1>
+                    <hr>
                     <h2>Web Design & Development</h2>
                 </div>
             </div>
@@ -55,19 +56,19 @@
                 </div>
                 <h4>Located in sunny city of <b>Albuquerque, NM</b></h4>
                 <div class="row">
-                    <div class="eight columns">
+                    <div class="seven columns">
                         <h5>Bio</h5>
-                        <p>I was born and raised here in the Land of Enchantment. Web design has become a passion and a creative outlet for me to express my thoughts of elegant design through.</p>
-                    <h5>Skills</h5>
-                    <ul>
-                        <li>HTML/CSS</li>
-                        <li>JavaScript/jQuery</li>
-                        <li>PHP</li>
-                        <li>Git/GitHub</li>
-                    </ul>
+                        <p>I was born and raised here in the Land of Enchantment. Web design has become a passion and a creative outlet for me. I specalize in simple and elegant designs that attract visitors without overwhelming them.</p>
+                        <h5>Skills</h5>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript/jQuery</li>
+                            <li>PHP</li>
+                            <li>Git/GitHub</li>
+                        </ul>
                     </div>
-                    <aside class="four columns about-picture">
-                        <p>Image here</p>
+                    <aside class="five columns about-picture">
+                        <img src="http://placehold.it/300x400/" src="Placeholder image">
                     </aside>
                 </div>
                 <div class="row">
