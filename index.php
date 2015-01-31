@@ -23,14 +23,14 @@
             <nav class="desktop-nav">
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#works">Works</a></li>
+                    <!-- <li><a href="#works">Works</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
                 <ul class="slideout-menu">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#works">Works</a></li>
+                    <!-- <li><a href="#works">Works</a></li> -->
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -42,9 +42,7 @@
             <div class="intro-splash-container">
                 <div class="intro-splash">
                     <h1>Nathan Hungate</h1>
-                    <h2>Front-End Developer</h2>
-                    <hr>
-                    <h2>Clean, elegant design</h2>
+                    <h2>Web Design & Development</h2>
                 </div>
             </div>
         </section>
@@ -59,7 +57,7 @@
                 <div class="row">
                     <div class="eight columns">
                         <h5>Bio</h5>
-                        <p>I was born and raised in the Land of Enchantment and love working with technology. Web design and development has become my passion as I study and learn daily about what can be done and how to make experience better.</p>
+                        <p>I was born and raised here in the Land of Enchantment. Web design has become a passion and a creative outlet for me to express my thoughts of elegant design through.</p>
                     <h5>Skills</h5>
                     <ul>
                         <li>HTML/CSS</li>

@@ -173,7 +173,7 @@ header {
     position: fixed;
     top: 6rem;
     display: none;
-    padding: 0;
+    padding: 1em 0 0;
     margin: 0;
     text-align: center;
     width: 100%;
@@ -181,7 +181,7 @@ header {
     background: #111;
 }
     .slideout-menu li {
-        padding: 20px 0;
+        padding: 0 0 2em 0;
         margin: 0;
     }
     .slideout-menu li a {
@@ -321,6 +321,7 @@ footer {
     padding: 1em 0;
     color: #eee;
     text-align: center;
+    font-weight: 200;
 }
 
 /*---------------
