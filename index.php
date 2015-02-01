@@ -58,7 +58,7 @@
                 <div class="row">
                     <div class="seven columns">
                         <h5>Bio</h5>
-                        <p>I was born and raised here in the Land of Enchantment. Web design has become a passion and a creative outlet for me. I specalize in simple and elegant designs that attract visitors without overwhelming them.</p>
+                        <p>I was born and raised here in the Land of Enchantment. Web design has become a passion and a creative outlet for me. I specalize in creating simple, elegant designs.</p>
                         <h5>Skills</h5>
                         <ul>
                             <li>HTML/CSS</li>
