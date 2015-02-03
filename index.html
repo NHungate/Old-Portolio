@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="robots" content="index">
         <meta name="description" content="Web Designer, Web Developer">
-        <meta name="keywords" content="HTML,HTML5,CSS,JavaScript,jQuery">
+        <meta name="keywords" content="HTML,HTML5,CSS,JavaScript,jQuery,PHP,Git">
         <meta name="author" content="Nathan J. Hungate">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 
@@ -23,22 +23,21 @@
             <nav class="desktop-nav">
                 <ul>
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#works">Works</a></li> -->
+                    <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <nav class="mobile-nav">
                 <ul class="slideout-menu">
                     <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#works">Works</a></li> -->
+                    <li><a href="#works">Works</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-
         <section class="intro">
             <div class="scroll-target" id="intro"></div>
-            <img src="res/images/unsplash-desk-with-phone-dark.jpg" alt="Background for Introduction Page" class="intro-bg">
+            <!-- <img src="res/images/unsplash-desk-with-phone-dark.jpg" alt="Background for Introduction Page" class="intro-bg"> -->
             <div class="intro-splash-container">
                 <div class="intro-splash">
                     <h1>Nathan Hungate</h1>
@@ -47,7 +46,6 @@
                 </div>
             </div>
         </section>
-
         <section class="about">
             <div class="scroll-target" id="about"></div>
             <div class="container">
@@ -60,11 +58,11 @@
                         <h5>Bio</h5>
                         <p>I was born and raised here in the Land of Enchantment. Web design has become a passion and a creative outlet for me. I specalize in creating simple, elegant designs.</p>
                         <h5>Skills</h5>
-                        <ul>
-                            <li>HTML/CSS</li>
-                            <li>JavaScript/jQuery</li>
+                        <ul class="skills">
+                            <li>HTML &amp; CSS</li>
+                            <li>JavaScript &amp; jQuery</li>
                             <li>PHP</li>
-                            <li>Git/GitHub</li>
+                            <li>Git</li>
                         </ul>
                     </div>
                     <aside class="five columns about-picture">
@@ -75,7 +73,6 @@
                 </div>
             </div>
         </section>
-
         <section class="works">
             <div class="scroll-target" id="works"></div>
             <div class="container">
@@ -90,7 +87,6 @@
                 </div>
             </div>
         </section>
-
         <section class="contact">
             <div class="scroll-target" id="contact"></div>
             <div class="container">
@@ -100,11 +96,12 @@
                 <h4>Interested? Let me know</h4>
                 <div class="row contact-info-container">
                     <div class="twelve columns contact-info">
-                        <ul>
-                            <li><span class="icon-phone"></span> <a href="tel:505-818-8642">505.818.8642</a></li>
-                            <li><span class="icon-mail2"></span> <a href="mailto:Nathan.J.Hungate@gmail.com">Nathan.J.Hungate@gmail.com</a></li>
-                            <li><span class="icon-twitter"></span> <a href="https://www.twitter.com/NHungate">@NHungate</a></li>
-                            <li><span class="icon-linkedin2"></span> <a href="http://www.linkedin.com/in/NathanHungate">NathanHungate</a></li>
+                        <ul class="contact-buttons">
+                            <li><a href="tel:505-818-8642"><span class="icon-phone"></span>505.818.8642</a></li>
+                            <li><a href="mailto:Nathan.J.Hungate@gmail.com"><span class="icon-mail2"></span>Nathan.J.Hungate@gmail.com</a></li>
+                            <li><a href="https://www.twitter.com/NHungate"><span class="icon-twitter"></span>@NHungate</a></li>
+                            <li><a href="http://www.linkedin.com/in/NathanHungate"><span class="icon-linkedin"></span>NathanHungate</a></li>
+                            <li><a href="http://www.github.com/NHungate/"><span class="icon-github"></span>NHungate</a></li>
                         </ul>
                     </div>
                 </div>
@@ -113,7 +110,6 @@
         <footer>
             &copy; 2015 |  Nathan J. Hungate
         </footer>
-
         <script src="res/js/custom.js"></script>
     </body>
 </html>
