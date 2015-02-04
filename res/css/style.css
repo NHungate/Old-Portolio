@@ -373,7 +373,6 @@ section p {
             display: block;
             overflow: hidden;
             margin: 0 0 1.5em;
-            padding: .8em 0;
             border: 1px solid #c2542b;
             border-radius: 5px;
             white-space: nowrap;
@@ -385,10 +384,10 @@ section p {
         .contact-buttons li a {
             display: inline-block;
             width: 100%;
-            height: 100%;
+            padding: .8em 0;
             color: #c2542b;
             vertical-align: middle;
-            transition: .25s;
+            transition: .2s;
         }
         .contact-buttons li a:hover {
             background: #c2542b;
