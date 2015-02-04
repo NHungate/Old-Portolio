@@ -129,7 +129,7 @@
  ---------------*/
 
 html {
-    background: #5C3D20 url('../images/unsplash-desk-with-phone-dark.jpg') fixed no-repeat center;
+    background: #5C3D20 url('../images/unsplash-desk-with-phone-dark-sm-2X.jpg') fixed no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -179,7 +179,18 @@ b {
 section {
     padding: 0;
     background: #eee;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
 }
+    .intro {
+        border-top: none;
+    }
+    section:nth-child(odd) {
+        background: #e6e6e6;
+    }
+    .contact {
+        box-shadow: 0 15px 10px -10px rgba(0,0,0,.4);
+    }
 hr {
     margin: 1.5rem auto 2rem;
     padding: 0;
@@ -202,6 +213,7 @@ header {
 }
     header a {
         color: #888;
+        transition: .25s;
     }
     header a:hover {
         color: #eee;
@@ -302,7 +314,7 @@ section p {
 .about,
 .works,
 .contact {
-    padding: 2em 0 0;
+    padding: 1em 0;
 }
 .scroll-target {
     position: relative;
@@ -376,9 +388,11 @@ section p {
             height: 100%;
             color: #c2542b;
             vertical-align: middle;
+            transition: .25s;
         }
         .contact-buttons li a:hover {
-            color: #9d3914;
+            background: #c2542b;
+            color: #eee;
         }
     .contact-form input, .contact-form textarea {
         display: block;
@@ -390,17 +404,23 @@ section p {
  ---------------*/
 footer {
     padding: 1em 0;
-    color: #eee;
     text-align: center;
-    font-weight: 200;
 }
+    footer p {
+        color: #eee;
+        font-weight: 200;
+    }
 
 /*---------------
  * Media Queries
  ---------------*/
 @media only screen
-and (min-width : 550px)
+and (min-width : 768px)
 {
+    html {
+        background: #5C3D20 url('../images/unsplash-desk-with-phone-dark.jpg') fixed no-repeat center;
+        font-size: 12px;
+    }
     hr {
         width: 80%;
     }
@@ -437,6 +457,7 @@ and (min-width : 550px)
     .contact-buttons li {
         display: inline-block;
         margin-right: .5em;
+        margin-bottom: 0;
         padding: 0;
     }
     .contact-buttons li:last-child {
@@ -446,5 +467,10 @@ and (min-width : 550px)
         padding: .5em 1em;
         width: inherit;
         height: inherit;
+    }
+}
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 14px;
     }
 }
